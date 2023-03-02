@@ -34,7 +34,7 @@
   width: 71px;
 }
 
-.sidebar li:hover,  {
+.sidebar li:hover {
   background-color: gray;
 }
 
