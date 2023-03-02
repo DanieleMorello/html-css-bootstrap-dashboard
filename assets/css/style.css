@@ -1,0 +1,54 @@
+:root {
+  --dash_dark_blu: #165bba;
+}
+
+/* Utilities */
+.badeg_blue {
+  background-color: var(--dash_dark_blu);
+}
+/* Debug */
+.debug #site_header {
+  background-color: blue;
+}
+
+
+/* Header */
+#site_header {
+  height: 70px;
+  display: flex;
+}
+
+
+/* main */
+.site_main {
+  height: calc(100vh -70px);
+  /* overflow-y: auto; */
+}
+
+.sidebar {
+  background-image: url("../img/sidebar-bg.png");
+  background-color: #000000;
+  width: 71px;
+}
+
+.sidebar_top span,
+.sidebar_bottom span,
+[alt="Logo"] {
+  display: none;
+}
+
+/* Responsive */
+@media screen and (min-width: 992px) {
+  .sidebar {
+    width: 149px;
+  }
+
+  
+
+  .sidebar_top span,
+  .sidebar_bottom span {
+    display: inline-block;
+  }
+
+}
+
