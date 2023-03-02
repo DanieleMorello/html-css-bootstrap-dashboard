@@ -17,12 +17,17 @@
   height: 70px;
   display: flex;
 }
-
+/* 
+#header {
+  height: 300px;
+} */
 
 /* main */
-.site_main {
-  height: calc(100vh -70px);
-  /* overflow-y: auto; */
+
+
+.wrapper {
+  height: calc(100vh - 70px);
+  overflow-y: auto;
 }
 
 .sidebar {
