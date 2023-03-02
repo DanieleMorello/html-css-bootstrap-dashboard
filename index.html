@@ -23,55 +23,59 @@
 
     <header id="site_header">
       <nav class="navbar flex-nowrap">
-        <div class="container">
-            <img src="./assets/img/mobile-logo.png" width="40" class="d-lg-none" alt="Mobile logo Boolean">
-            <img src="./assets/img/logo.svg" width="150" class="img-fluid d-none d-lg-block" alt="Logo Boolean">
-            <!-- /loghi -->
+        <div class="container-fluid">
+          <img src="./assets/img/mobile-logo.png" width="40" class="d-lg-none"
+            alt="Mobile logo Boolean">
+          <img src="./assets/img/logo.svg" width="150" class="img-fluid d-none
+            d-lg-block" alt="Logo Boolean">
+          <!-- /loghi -->
 
-            <!-- opzione 1 -->
-            <!-- <form class="d-flex w-100 mx-3" role="search">
+          <!-- opzione 1 -->
+          <!-- <form class="d-flex w-100 mx-3" role="search">
                 <input class="form-control input-group-text text-start" type="search" placeholder="&#128269; Prova a cercare: Lezioni di Laravel"
                     aria-label="Search">
             </form> -->
-            <!-- opzione 2 -->
-            <div class="input-group px-4">
-              <span class="input-group-text px-1 border-0" id="search_icon">
-                <i class="fa-solid fa-magnifying-glass fa-fw"></i>
-              </span>
-              <input type="search" class="input-group-text text-start form-control border-0" placeholder="Prova a cercare: Lezioni di Laravel">
-            </div>
-            <!-- /form -->
-            <ul class="navbar-nav flex-row gap-3 d-none d-lg-flex">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-list-ul"></i></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#"><i
-                            class="fa-solid fa-circle-question"></i></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#"><i
-                            class="fa-solid fa-ellipsis-vertical"></i></a>
-                </li>
-            </ul>
-            <!-- /navbar-nav -->
-            <div class="dropdown">
-                <a class="btn text-warning border-0" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    <i class="fa-solid fa-bell"></i>
-                </a>
+          <!-- opzione 2 -->
+          <div class="input-group px-4">
+            <span class="input-group-text px-1 border-0" id="search_icon">
+              <i class="fa-solid fa-magnifying-glass fa-fw"></i>
+            </span>
+            <input type="search" class="input-group-text text-start form-control
+              border-0" placeholder="Prova a cercare: Lezioni di Laravel">
+          </div>
+          <!-- /form -->
+          <ul class="navbar-nav flex-row gap-3 d-none d-lg-flex">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><i
+                  class="fa-solid fa-list-ul"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><i
+                  class="fa-solid fa-circle-question"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><i
+                  class="fa-solid fa-ellipsis-vertical"></i></a>
+            </li>
+          </ul>
+          <!-- /navbar-nav -->
+          <div class="dropdown">
+            <a class="btn text-warning border-0" href="#" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fa-solid fa-bell"></i>
+            </a>
 
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Profilo</a></li>
-                    <li><a class="dropdown-item" href="#">Fatturazione</a></li>
-                    <li><a class="dropdown-item" href="#">Logout</a></li>
-                </ul>
-                <!-- /.dropdown-menu -->
-            </div>
-            <!-- /.dropdown -->
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Profilo</a></li>
+              <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+              <li><a class="dropdown-item" href="#">Logout</a></li>
+            </ul>
+          </div>
+          <!-- /.dropdown -->
         </div>
         <!-- /.container fluid -->
-    </nav>
-    <!-- /navbar -->
+      </nav>
+      <!-- /navbar -->
     </header>
     <!-- /#site_header -->
 
@@ -115,15 +119,16 @@
 
       <div class="wrapper">
         <section id="header" class="flex-grow-1">
-          <div class="container text-bg-primary p-3">
+          <div class="container-fluid text-bg-primary p-3">
             <div class="row">
               <div class="col-sm-12 col-md-4 order-md-3">
                 <p>Nuovo Studente</p>
-                
-                <button class="btn btn-primary" type="button"
+              </div>
+              <!-- <button class="btn btn-primary" type="button"
                   data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
                   aria-controls="offcanvasRight">
-                  <i class="fa-regular fa-square-plus fa-3x text-white"></i></button>
+                  <i class="fa-regular fa-square-plus fa-3x text-white"></i>
+                </button>
                 <div class="offcanvas offcanvas-end" tabindex="-1"
                   id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                   <div class="offcanvas-header">
@@ -138,227 +143,291 @@
                       <form class="row">
                         <div class="col-12 col-sm-6">
                           <div class="mb-3">
-                              <label for="name" class="form-label">Nome</label>
-                              <input type="text" class="form-control" id="name">
-                          </div>
-                          <!-- /#name -->
-                          <div class="mb-3">
+                            <label for="name" class="form-label">Nome</label>
+                            <input type="text" class="form-control" id="name">
+                          </div> -->
+              <!-- /#name -->
+              <!-- <div class="mb-3">
                             <label for="surname" class="form-label">Cognome</label>
-                            <input type="text" class="form-control" id="surname">
-                        </div>
-                        <!-- /#surname -->
-                      </div>
+                            <input type="text" class="form-control"
+                              id="surname">
+                          </div> -->
+              <!-- /#surname -->
+              <!-- </div>
 
-                      <div class="col-12 col-sm-6">
-                        <div class="mb-3">
+                        <div class="col-12 col-sm-6">
+                          <div class="mb-3">
                             <label for="email" class="form-label">Email</label>
                             <input type="text" class="form-control" id="email">
-                        </div>
-                        <!-- /#name -->
-                        <div class="mb-3">
-                          <label for="password" class="form-label">Password</label>
-                          <input type="text" class="form-control" id="password">
-                      </div>
-                      <!-- /#surname -->
-                    </div>
-                      
-                   
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-12 col-md-3 ">
+                          </div> -->
+              <!-- /#name -->
+              <!-- <div class="mb-3">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="text" class="form-control"
+                              id="password">
+                          </div> -->
+              <!-- /#surname -->
+              <!-- </div>
+
+                      </form> -->
+              <!-- </div> -->
+              <div class="col-sm-12 col-md-4">
                 <span class="h1">Boolean</span>
                 <span class="badge rounded-pill badeg_blue">Piano blaze</span>
                 <div>
                   <span class="badge rounded-pill badeg_blue">3 App</span>
                   <span><i class="fa-solid fa-angles-right"></i></span>
-                  <span class="badge rounded-pill badeg_blue">Boolean mobile app</span>
-                  <span class="badge rounded-pill badeg_blue">Boolean web app</span>
-                  <span class="badge rounded-pill badeg_blue">Boolean blog app</span>
+                  <span class="badeg_blue d-md-none">
+                    <i class="fa-solid fa-circle-plus"></i>
+                  </span>
+                  <span class="badge rounded-pill badeg_blue d-sm-none d-md-inline-block">
+                    Boolean mobile app
+                  </span>
+                  <span class="badge rounded-pill badeg_blue d-sm-none  d-md-inline-block">
+                    Boolean web app
+                  </span>
+                  <span class="badge rounded-pill badeg_blue d-sm-none d-md-inline-block">
+                    Boolean blog app
+                  </span>
                 </div>
               </div>
-              
+
+
+
               <div class="col-sm-12 col-md-4">
                 <p>Studenti online negli ultimi 30 minuti</p>
-                <p>125</p>
+                <p class="h1">125</p>
               </div>
-              
+
+
             </div>
           </div>
         </section>
         <!-- /#header -->
-  
+
         <section class="container flex-grow-0">
           <div class="row">
-            <div class="col-12 col-lg-8">
+            <div class="col-12 col-md-8 next_class">
               <div class="card mt-3">
-                <h5 class="card-title p-3 border-0 border-bottom">Prossime classi</h5>
+                <h5 class="card-title p-3 border-0 border-bottom">
+                  Prossime classi
+                </h5>
                 <div class="car-body">
                   <table class="table">
                     <thead>
-                        <tr>
-                            <td>Nome</td>
-                            <td class="d-none d-md-table-cell">Data inizio</td>
-                            <td class="d-none d-md-table-cell">ROI</td>
-                            <td>Stato</td>
-                            <td>Azioni</td>
-                        </tr>
+                      <tr>
+                        <td>Nome</td>
+                        <td class="d-none d-md-table-cell">Data inizio</td>
+                        <td class="d-none d-md-table-cell">ROI</td>
+                        <td>Stato</td>
+                        <td>Azioni</td>
+                      </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td>
-                              <img width="30" src="./assets/img/class-avatar.jpg" alt="Class avatar">
-                               Classe 75
-                            </td>
-                            <td class="d-none d-md-table-cell">15 Feb 2021</td>
-                            <td class="d-none d-md-table-cell">20%</td>
-                            <td><span class="badge text-bg-success">Done</span></td>
-                            <td>
-                              <span class="px-3"><i class="fa-solid fa-pen"></i></span>  
-                              <span><i class="fa-solid fa-trash"></i></span>  
-                            </td>
-                        </tr>
+                      <tr>
+                        <td>
+                          <img width="30" src="./assets/img/class-avatar.jpg"
+                            alt="Class avatar">
+                          Classe 75
+                        </td>
+                        <td class="d-none d-md-table-cell">15 Feb 2021</td>
+                        <td class="d-none d-md-table-cell">20%</td>
+                        <td><span class="badge text-bg-success">Done</span></td>
+                        <td>
+                          <span class="px-3"><i class="fa-solid fa-pen"></i></span>
+                          <span><i class="fa-solid fa-trash"></i></span>
+                        </td>
+                      </tr>
 
-                        <tr>
-                            <td>
-                              <img width="30" src="./assets/img/class-avatar.jpg" alt="Class avatar">
-                              Classe 76
-                            </td>
-                            <td class="d-none d-md-table-cell">16 Feb 2021</td>
-                            <td class="d-none d-md-table-cell">20%</td>
-                            <td><span class="badge text-bg-success">Done</span></td>
-                            <td>
-                              <span class="px-3"><i class="fa-solid fa-pen"></i></span>  
-                              <span><i class="fa-solid fa-trash"></i></span>  
-                            </td>
-                        </tr>
+                      <tr>
+                        <td>
+                          <img width="30" src="./assets/img/class-avatar.jpg"
+                            alt="Class avatar">
+                          Classe 76
+                        </td>
+                        <td class="d-none d-md-table-cell">16 Feb 2021</td>
+                        <td class="d-none d-md-table-cell">20%</td>
+                        <td><span class="badge text-bg-success">Done</span></td>
+                        <td>
+                          <span class="px-3"><i class="fa-solid fa-pen"></i></span>
+                          <span><i class="fa-solid fa-trash"></i></span>
+                        </td>
+                      </tr>
 
-                        <tr>
-                            <td>
-                              <img width="30" src="./assets/img/class-avatar.jpg" alt="Class avatar">
-                              Classe 77
-                            </td>
-                            <td class="d-none d-md-table-cell">17 Feb 2021</td>
-                            <td class="d-none d-md-table-cell">20%</td>
-                            <td><span class="badge text-bg-warning text-white">Process</span></td>
-                            <td>
-                              <span class="px-3"><i class="fa-solid fa-pen"></i></span>  
-                              <span><i class="fa-solid fa-trash"></i></span>  
-                            </td>
-                        </tr>
+                      <tr>
+                        <td>
+                          <img width="30" src="./assets/img/class-avatar.jpg"
+                            alt="Class avatar">
+                          Classe 77
+                        </td>
+                        <td class="d-none d-md-table-cell">17 Feb 2021</td>
+                        <td class="d-none d-md-table-cell">20%</td>
+                        <td><span class="badge text-bg-warning text-white">Process</span></td>
+                        <td>
+                          <span class="px-3"><i class="fa-solid fa-pen"></i></span>
+                          <span><i class="fa-solid fa-trash"></i></span>
+                        </td>
+                      </tr>
 
-                        <tr>
-                            <td>
-                              <img width="30" src="./assets/img/class-avatar.jpg" alt="Class avatar">
-                              Classe 78
-                            </td>
-                            <td class="d-none d-md-table-cell">18 Feb 2021</td>
-                            <td class="d-none d-md-table-cell">20%</td>
-                            <td><span class="badge text-bg-success">Done</span></td>
-                            <td>
-                              <span class="px-3"><i class="fa-solid fa-pen"></i></span>  
-                              <span><i class="fa-solid fa-trash"></i></span>  
-                            </td>
-                        </tr>
+                      <tr>
+                        <td>
+                          <img width="30" src="./assets/img/class-avatar.jpg"
+                            alt="Class avatar">
+                          Classe 78
+                        </td>
+                        <td class="d-none d-md-table-cell">18 Feb 2021</td>
+                        <td class="d-none d-md-table-cell">20%</td>
+                        <td><span class="badge text-bg-success">Done</span></td>
+                        <td>
+                          <span class="px-3"><i class="fa-solid fa-pen"></i></span>
+                          <span><i class="fa-solid fa-trash"></i></span>
+                        </td>
+                      </tr>
 
-                        <tr>
-                            <td>
-                              <img width="30" src="./assets/img/class-avatar.jpg" alt="Class avatar">
-                              Classe 79
-                            </td>
-                            <td class="d-none d-md-table-cell">19 Feb 2021</td>
-                            <td class="d-none d-md-table-cell">20%</td>
-                            <td><span class="badge text-bg-danger">Failed</span></td>
-                            <td>
-                              <span class="px-3"><i class="fa-solid fa-pen"></i></span>  
-                              <span><i class="fa-solid fa-trash"></i></span>  
-                            </td>
-                        </tr>
+                      <tr>
+                        <td>
+                          <img width="30" src="./assets/img/class-avatar.jpg"
+                            alt="Class avatar">
+                          Classe 79
+                        </td>
+                        <td class="d-none d-md-table-cell">19 Feb 2021</td>
+                        <td class="d-none d-md-table-cell">20%</td>
+                        <td><span class="badge text-bg-danger">Failed</span></td>
+                        <td>
+                          <span class="px-3"><i class="fa-solid fa-pen"></i></span>
+                          <span><i class="fa-solid fa-trash"></i></span>
+                        </td>
+                      </tr>
 
-                        <tr>
-                            <td>
-                              <img width="30" src="./assets/img/class-avatar.jpg" alt="Class avatar">
-                              Classe 80
-                            </td>
-                            <td class="d-none d-md-table-cell">20 Feb 2021</td>
-                            <td class="d-none d-md-table-cell">20%</td>
-                            <td><span class="badge text-bg-success">Done</span></td>
-                            <td>
-                              <span class="px-3"><i class="fa-solid fa-pen"></i></span>  
-                              <span><i class="fa-solid fa-trash"></i></span>  
-                            </td>
-                        </tr>
+                      <tr>
+                        <td>
+                          <img width="30" src="./assets/img/class-avatar.jpg"
+                            alt="Class avatar">
+                          Classe 80
+                        </td>
+                        <td class="d-none d-md-table-cell">20 Feb 2021</td>
+                        <td class="d-none d-md-table-cell">20%</td>
+                        <td><span class="badge text-bg-success">Done</span></td>
+                        <td>
+                          <span class="px-3"><i class="fa-solid fa-pen"></i></span>
+                          <span><i class="fa-solid fa-trash"></i></span>
+                        </td>
+                      </tr>
 
-                        <tr>
-                            <td>
-                              <img width="30" src="./assets/img/class-avatar.jpg" alt="Class avatar">
-                              Classe 81
-                            </td>
-                            <td class="d-none d-md-table-cell">21 Feb 2021</td>
-                            <td class="d-none d-md-table-cell">20%</td>
-                            <td><span class="badge text-bg-danger">Failed</span></td>
-                            <td>
-                              <span class="px-3"><i class="fa-solid fa-pen"></i></span>  
-                              <span><i class="fa-solid fa-trash"></i></span>  
-                            </td>
-                        </tr>
+                      <tr>
+                        <td>
+                          <img width="30" src="./assets/img/class-avatar.jpg"
+                            alt="Class avatar">
+                          Classe 81
+                        </td>
+                        <td class="d-none d-md-table-cell">21 Feb 2021</td>
+                        <td class="d-none d-md-table-cell">20%</td>
+                        <td><span class="badge text-bg-danger">Failed</span></td>
+                        <td>
+                          <span class="px-3"><i class="fa-solid fa-pen"></i></span>
+                          <span><i class="fa-solid fa-trash"></i></span>
+                        </td>
+                      </tr>
 
-                        <tr>
-                            <td>
-                              <img width="30" src="./assets/img/class-avatar.jpg" alt="Class avatar">
-                              Classe 82
-                            </td>
-                            <td class="d-none d-md-table-cell">22 Feb 2021</td>
-                            <td class="d-none d-md-table-cell">20%</td>
-                            <td><span class="badge text-bg-success">Done</span></td>
-                            <td>
-                            <span class="px-3"><i class="fa-solid fa-pen"></i></span>  
-                            <span><i class="fa-solid fa-trash"></i></span>  
-                            </td>
-                        </tr>
+                      <tr>
+                        <td>
+                          <img width="30" src="./assets/img/class-avatar.jpg"
+                            alt="Class avatar">
+                          Classe 82
+                        </td>
+                        <td class="d-none d-md-table-cell">22 Feb 2021</td>
+                        <td class="d-none d-md-table-cell">20%</td>
+                        <td><span class="badge text-bg-success">Done</span></td>
+                        <td>
+                          <span class="px-3"><i class="fa-solid fa-pen"></i></span>
+                          <span><i class="fa-solid fa-trash"></i></span>
+                        </td>
+                      </tr>
 
                     </tbody>
-                </table>
+                  </table>
                 </div>
               </div>
-              
+
               <div class="card mt-3">
                 <h5 class="card-title p-3 border-0 border-bottom">F.A.Q.</h5>
                 <div class="car-body">
                   <div class="accordion" id="accordionExample">
                     <div class="accordion-item border-0 border-bottom">
                       <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        <button class="accordion-button" type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseOne" aria-expanded="false"
+                          aria-controls="collapseOne">
                           Come aggiungere un nuovo studente?
                         </button>
                       </h2>
-                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                      <div id="collapseOne" class="accordion-collapse collapse
+                        show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                          <strong>This is the first item's accordion body.</strong>
+                          It is shown by default, until the collapse plugin adds
+                          the appropriate classes that we use to style each
+                          element. These classes control the overall appearance,
+                          as well as the showing and hiding via CSS transitions.
+                          You can modify any of this with custom CSS or
+                          overriding our default variables. It's also worth
+                          noting that just about any HTML can go within the
+                          <code>.accordion-body</code>, though the transition
+                          does limit overflow.
                         </div>
                       </div>
                     </div>
                     <div class="accordion-item">
                       <h2 class="accordion-header" id="headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <button class="accordion-button collapsed" type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseTwo" aria-expanded="false"
+                          aria-controls="collapseTwo">
                           Come posso accedere alle informazioni del mio account?
                         </button>
                       </h2>
-                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                      <div id="collapseTwo" class="accordion-collapse collapse"
+                        aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                          <strong>This is the second item's accordion body.</strong>
+                          It is hidden by default, until the collapse plugin
+                          adds the appropriate classes that we use to style each
+                          element. These classes control the overall appearance,
+                          as well as the showing and hiding via CSS transitions.
+                          You can modify any of this with custom CSS or
+                          overriding our default variables. It's also worth
+                          noting that just about any HTML can go within the
+                          <code>.accordion-body</code>, though the transition
+                          does limit overflow.
                         </div>
                       </div>
                     </div>
                     <div class="accordion-item">
                       <h2 class="accordion-header" id="headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <button class="accordion-button collapsed" type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseThree" aria-expanded="false"
+                          aria-controls="collapseThree">
                           Posso usare questa dashboard da mobile?
                         </button>
                       </h2>
-                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                      <div id="collapseThree" class="accordion-collapse
+                        collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                          <strong>This is the third item's accordion body.</strong>
+                          It is hidden by default, until the collapse plugin
+                          adds the appropriate classes that we use to style each
+                          element. These classes control the overall appearance,
+                          as well as the showing and hiding via CSS transitions.
+                          You can modify any of this with custom CSS or
+                          overriding our default variables. It's also worth
+                          noting that just about any HTML can go within the
+                          <code>.accordion-body</code>, though the transition
+                          does limit overflow.
                         </div>
                       </div>
                     </div>
@@ -366,58 +435,61 @@
                 </div>
               </div>
             </div>
-          
-          <!-- /#info -->
-          
-            <div class="col-12 col-lg-4">
+
+            <!-- /#info -->
+
+            <div class="col-12 col-md-4 to_do">
               <div class="card mt-3">
                 <h5 class="card-title p-3 border-0 border-bottom">Todo</h5>
                 <div class="car-body p-3">
                   <div class="form-check">
                     <input class="form-check-input" type="checkbox" value=""
-                        id="Kickoff">
+                      id="Kickoff">
                     <label class="form-check-label" for="Kickoff">
-                        Kickoff nuove classi
+                      Kickoff nuove classi
                     </label>
-                </div>
+                  </div>
 
-                <div class="form-check">
+                  <div class="form-check">
                     <input class="form-check-input" type="checkbox" value=""
-                        id="Lezione">
+                      id="Lezione">
                     <label class="form-check-label" for="Lezione">
-                        Lezione con Bootstrap 5 in classe #75
+                      Lezione con Bootstrap 5 in classe #75
                     </label>
-                </div>
+                  </div>
 
-                <div class="form-check">
+                  <div class="form-check">
                     <input class="form-check-input" type="checkbox" value=""
-                        id="username">
+                      id="username">
                     <label class="form-check-label" for="username">
-                        Controllare username github studenti
+                      Controllare username github studenti
                     </label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <img src="./assets/img/stats.jpeg" class="card-img-top"
+                  alt="stats">
+                <div class="card-body">
+                  <h5 class="card-title">Utenti attivi</h5>
+                  <p class="card-text">
+                    Lista degli utenti attivi in piattaforma nell'ultimo mese
+                  </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Gennaio: 1200</li>
+                  <li class="list-group-item">Febbraio: 800</li>
+                  <li class="list-group-item">Marzo: 1500</li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link">Visualizza report approfondito</a>
                 </div>
               </div>
             </div>
-        
-          <!-- /#todo -->
-          <div class="card mt-3">
-            <img src="./assets/img/stats.jpeg" class="card-img-top" alt="stats">
-            <div class="card-body">
-                <h5 class="card-title">Utenti attivi</h5>
-                <p class="card-text">
-                  Lista degli utenti attivi in piattaforma nell'ultimo mese
-                </p>
-            </div>
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item">Gennaio: 1200</li>
-                <li class="list-group-item">Febbraio: 800</li>
-                <li class="list-group-item">Marzo: 1500</li>
-            </ul>
-            <div class="card-body">
-                <a href="#" class="card-link">Visualizza report approfondito</a>
-            </div>
-        </div>
-          
+            <!-- /#todo -->
+
+          </div>
         </section>
       </div>
     </main>
