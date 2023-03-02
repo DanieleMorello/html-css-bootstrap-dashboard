@@ -53,6 +53,14 @@
 }
 
 /* Responsive */
+@media screen and (min-width: 576px) {
+.offcanvas.show:not(.hiding) {
+  transform: none;
+  width: 100%;
+}
+
+}
+
 @media screen and (min-width: 992px) {
   .sidebar {
     width: 149px;
@@ -63,10 +71,11 @@
     display: inline-block;
   }
 
-  /* .next_class,
-  .to_do {
-    margin-top: 15rem;
-  } */
+  .offcanvas.show:not(.hiding) {
+    transform: none;
+    width: 50%;
+  }
+
 }
 
 @media screen and (min-width: 1200px) {
