@@ -52,26 +52,19 @@
   display: none;
 }
 
-label {
-  display: inline-block;
-  font-size: 0.5rem;
-}
-
-label, td {
-  font-weight: 700;
-}
-
-td {
+label,
+td,
+.list-group-flush > .list-group-item,
+.card-text:last-child {
   font-weight: 500;
 }
 
 /* Responsive */
 @media screen and (min-width: 576px) {
-.offcanvas.show:not(.hiding) {
-  transform: none;
-  width: 100%;
-}
-
+  .offcanvas.show:not(.hiding) {
+    transform: none;
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -92,7 +85,6 @@ td {
   label {
     font-size: 0.7rem;
   }
-
 }
 
 @media screen and (min-width: 1200px) {
