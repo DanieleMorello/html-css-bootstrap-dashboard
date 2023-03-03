@@ -55,7 +55,14 @@
 label {
   display: inline-block;
   font-size: 0.5rem;
+}
+
+label, td {
   font-weight: 700;
+}
+
+td {
+  font-weight: 500;
 }
 
 /* Responsive */
@@ -82,7 +89,14 @@ label {
     width: 50%;
   }
 
+  label {
+    font-size: 0.7rem;
+  }
+
 }
 
 @media screen and (min-width: 1200px) {
+  label {
+    font-size: 0.9rem;
+  }
 }
